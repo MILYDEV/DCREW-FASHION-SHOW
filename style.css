@@ -292,13 +292,15 @@ button:hover {
 }
 
 .wrap {
-  border: 3px solid var(--ac_color);
+  
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
 
   justify-content: center;
+
+  
 }
 
 .card {
@@ -307,7 +309,7 @@ button:hover {
   border-radius: 25px;
   margin: 20px;
 
-  border: 2px solid var(--ac_color);
+  box-shadow: 0px 14px 13px 0px #D22779;
 }
 
 .card img {
@@ -320,7 +322,11 @@ button:hover {
 }
 
 .wrap-utama .card-utama {
-  border: 3px solid var(--ac_color);
+  box-shadow: 0px 14px 13px 0px #D22779;
+}
+
+.wrap-utama {
+  width: 77%;
 }
 
 .wrap-utama .card-utama img {
