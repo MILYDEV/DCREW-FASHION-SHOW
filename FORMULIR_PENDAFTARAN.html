@@ -9,7 +9,7 @@
 <meta property="og:description" content="Silakan klik tautan untuk melengkapi formulir ini." >
 <meta name="slack-app-id" content="AHNMASS8M">
 <meta property="og:image" content="#" /> <!-- Web banner -->
-<link rel="shortcut icon" href="#"> <!-- Favicon / Icon Webpage -->
+<link rel="shortcut icon" href="Assets/favicon.png"> <!-- Favicon / Icon Webpage -->
 <script>
           var favicon = document.querySelector('link[rel="shortcut icon"]');
           window.isDarkMode = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
@@ -87,7 +87,12 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"FORMULIR
       </li>
       <li class="form-line jf-required" data-type="control_radio" id="id_8"><label class="form-label form-label-top form-label-auto" id="label_8" for="input_8"> Kategori Umur<span class="form-required">*</span> </label>
         <div id="cid_8" class="form-input-wide jf-required" data-layout="full">
-          <div class="form-single-column" role="group" aria-labelledby="label_8" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_8" class="form-radio validate[required]" id="input_8_0" name="q8_kategoriUmur" value="Anak-Anak" required="" /><label id="label_input_8_0" for="input_8_0">Anak-Anak</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_8" class="form-radio validate[required]" id="input_8_1" name="q8_kategoriUmur" value="Remaja" required="" /><label id="label_input_8_1" for="input_8_1">Remaja</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_8" class="form-radio validate[required]" id="input_8_2" name="q8_kategoriUmur" value="Dewasa" required="" /><label id="label_input_8_2" for="input_8_2">Dewasa</label></span></div>
+          <div class="form-single-column" role="group" aria-labelledby="label_8" data-component="radio">
+
+            <span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_8" class="form-radio validate[required]" id="input_8_0" name="q8_kategoriUmur" value="Anak-Anak" required="" /><label id="label_input_8_0" for="input_8_0">Anak-Anak (Dibawah 13 Tahun)</label></span>
+            <span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input type="radio" aria-describedby="label_8" class="form-radio validate[required]" id="input_8_1" name="q8_kategoriUmur" value="Remaja" required="" /><label id="label_input_8_1" for="input_8_1">Umum (Diatas 13 Tahun)</label></span>
+          
+          </div>
         </div>
       </li>
       <li class="form-line form-field-hidden" style="display:none;" data-type="control_textbox" id="id_9"><label class="form-label form-label-top form-label-auto" id="label_9" for="input_9"> Nama Orang Tua / Penanggungjawab ( Khusus Kategori Anak-Anak ) </label>
