@@ -336,6 +336,10 @@ button:hover {
   margin: 10px;
 }
 
+.card img {
+  border-radius: 20px;
+}
+
 footer {
   text-align: center;
   margin: 20px;
