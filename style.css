@@ -232,6 +232,10 @@ button:hover {
     overflow: hidden;
     transition: 0.3s;
   }
+
+  iframe {
+    max-height: 450px;
+  }
 }
 
 
@@ -273,9 +277,9 @@ button:hover {
 
 .lokasi iframe {
   padding-bottom: 20px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .tombol {
