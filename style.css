@@ -273,6 +273,7 @@ button:hover {
 
 .lokasi {
   border-top: 2px solid #fff;
+  padding-bottom: 20px;
 }
 
 .lokasi iframe {
@@ -426,6 +427,22 @@ footer p {
   margin: 25px;
 }
 
+/*Tombol Styled*/
+
+.tombol1 {
+  padding: 8px 15px 8px 15px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.tombol1:hover {
+  font-size: 15px;
+  transition: 0.3s;
+  color: #ff6df3;
+  border-color: #ff6df3;
+}
 
 
 /* SCROLLBAR */
